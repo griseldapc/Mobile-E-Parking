@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <section className="mx-auto">
             <Navbar />
-            <div className="home mx-auto" style={{ backgroundColor: "#F0F2F5", maxWidth: "376px", margin: "auto" }}>
+            <div className="home mx-auto" style={{ backgroundColor: "#F0F2F5", maxWidth: "376px", margin: "auto", paddingTop: "70px" }}>
                 <div className="d-flex justify-content-start gap-3 algin-items-center">
                     <img src="../../assets/profil.svg"></img>
                     <div>
@@ -41,7 +41,7 @@ export default function Home() {
                         <div className="i-slide" style={{ width: "104px", textAlign: "center" }}>
                             <div className="d-flex justify-content-start gap-2 align-items-end px-3">
                                 <div style={{width: "32px"}}>
-                                <img src="../../assets/1,2k.svg" style={{ position: "relative", marginLeft: "-12px", zIndex: "2", marginBottom: "-30vh" }}></img>
+                                <img src="../../assets/1,2k.svg" style={{ position: "relative", marginLeft: "-12px", marginBottom: "-30vh" }}></img>
                                     <p style={{ width: "32px", height: "218px", borderRadius: "10px", backgroundColor: "#269544" }}></p>
                                 </div>
                                 <p style={{ width: "32px", height: "48px", borderRadius: "10px", backgroundColor: "#952626" }}></p>
