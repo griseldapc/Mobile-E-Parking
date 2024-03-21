@@ -43,30 +43,6 @@
 }
 
 @media(max-width:320px ){
-    /* .navbar{
-        width: 320px;
-    }
-    .parkir{
-        width: 50px;
-    }
-    .tk{
-        width: 135px !important;
-    }
-    .ft{
-      left: 0;
-      width: 100%;
-      padding-top: 0px !important;
-      margin-top: 0px;
-      padding-bottom:2.1vh;
-    }
-    .sc{
-        margin-top: -15px !important;
-        width: 45px;
-        margin-left: 1px;
-    }
-    .ho{
-       width: 40px !important; 
-    } */
     .hid{
         gap: 70px;
     }
@@ -74,22 +50,6 @@
         width: 132px;
         height: 196px;
     }
-    /* .ij{
-        width: 132px;
-        height: 214px;
-        padding: 5vh;
-    }
-    .doc{
-        width: 132px !important;
-        height: 204px !important;
-        padding: 5vh;
-    }
-    .ktp{
-        gap: 15px !important;
-    }
-    .mg{
-        width: 250px;
-    } */
     .tas{
         gap: 40px;
     }

@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <section className="mx-auto">
             <Navbar />
-            <div className="home mx-auto" style={{ backgroundColor: "#F0F2F5", paddingTop: "15vh", maxWidth: "376px", margin: "auto" }}>
+            <div className="home mx-auto" style={{ backgroundColor: "#F0F2F5", paddingTop: "12vh", maxWidth: "376px", margin: "auto" }}>
                 <div className="d-flex justify-content-start gap-3 algin-items-center">
                     <img src="../../assets/profil.svg"></img>
                     <div>
