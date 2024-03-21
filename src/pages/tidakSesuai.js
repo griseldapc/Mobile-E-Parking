@@ -31,13 +31,13 @@ export default function TidakSesuai() {
     return (
         <section className="mx-auto" style={{maxWidth: "376px"}}>
             <Navbar/>
-            <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15vh" }}>
+            <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "70px" }}>
             <Link to="/keluar">
                   <img src="../../assets/Arrow.svg" style={{ marginLeft: "25px" }}></img>
                 </Link>
                 <h1 style={{ fontSize: "16px", fontWeight: "600", textAlign: "center", marginBottom: 0}}>Tidak Sesuai</h1>
             </div>
-            <div style={{ backgroundColor: "#F0F2F5" }} className="home">
+            <div style={{ backgroundColor: "#F0F2F5", height: "100vh" }} className="home">
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputText" class="form-label" style={{fontSize: "12px", fontWeight: "700"}}>Masukan Nomor Polisi</label>

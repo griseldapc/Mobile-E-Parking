@@ -35,7 +35,7 @@ export default function Scan() {
     return (
         <section className="mx-auto" style={{ maxWidth: "376px" }}>
             <Navbar />
-            <div style={{ paddingTop: "12vh", position: "relative", overflow: "hidden" }}>
+            <div style={{  paddingTop: "50px",  position: "relative", overflow: "hidden" }}>
                 <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15px" }}>
                     <Link to="/">
                         <img src="../../assets/Arrow.svg" style={{ marginLeft: "25px" }} alt="Arrow"></img>
@@ -47,8 +47,8 @@ export default function Scan() {
                        
                         </h1>
                 </div>
-                <div className="home" style={{ display: "flex", flexDirection: "column", justifyContent: "end", gap: "15vh", marginTop: "0vh" }}>
-                    <video ref={videoRef} style={{ width: "100%", height: "auto", position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", zIndex: -1 }} autoPlay playsInline></video>
+                <div className="home" style={{ display: "flex", flexDirection: "column", justifyContent: "end", gap: "15vh", marginTop: "0vh", position: "relative" }}>
+                    <video ref={videoRef} style={{ width: "100%", height: "auto", position: "absolute", top: "37%", left: "50%", transform: "translate(-50%, -50%)", zIndex: -1 }} autoPlay playsInline></video>
                     <Link to="/masuk">
                         <img src="../../assets/qr.png" alt="QR Code" style={{ width: "100%", maxWidth: "100%", height: "auto" }}></img>
                     </Link>

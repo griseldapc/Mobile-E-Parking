@@ -6,13 +6,13 @@ export default function Keluar() {
     return (
         <section className="mx-auto" style={{maxWidth: "376px"}}>
             <Navbar/>
-            <div className="d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15vh", gap: "80px" }}>
+            <div className="d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "70px", gap: "80px" }}>
             <Link to="/scan">
                   <img src="../../assets/Arrow.svg" style={{ marginLeft: "25px" }}></img>
                 </Link>
                 <h1 style={{ fontSize: "16px", fontWeight: "600", textAlign: "center", marginBottom: 0 }}>Scan Tiket Keluar</h1>
             </div>
-            <div style={{ backgroundColor: "#F0F2F5" }} className="home">
+            <div style={{ backgroundColor: "#F0F2F5", zIndex: "1" }} className="home">
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputText" class="form-label" style={{fontSize: "12px"}}>Event</label>

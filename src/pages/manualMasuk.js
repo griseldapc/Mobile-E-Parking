@@ -30,7 +30,7 @@ export default function ManualMasuk() {
     return (
         <section className="mx-auto" style={{ maxWidth: "376px" }}>
             <Navbar />
-            <div className="tas d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15vh" }}>
+            <div className="tas d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "70px" }}>
                 <Link to="/manual">
                   <img src="../../assets/Arrow.svg" style={{ marginLeft: "25px" }}></img>
                 </Link>
