@@ -36,13 +36,13 @@ export default function Home() {
                 </div>
                 <div className="mt-3 px-3 py-4" style={{ backgroundColor: "white", borderRadius: "10px", marginBottom: "12vh" }}>
                     <h1 style={{ fontSize: "14px", fontWeight: "600" }}>Grafik Pengunjung</h1>
-                    <div className="slide d-flex justify-content-between mt-4 align-items-end">
+                    <div className="slide d-flex justify-content-between mt-2 align-items-end">
 
                         <div className="i-slide" style={{ width: "104px", textAlign: "center" }}>
                             <div className="d-flex justify-content-start gap-2 align-items-end px-3">
-                                <div style={{ position: "relative" }}>
+                                <div style={{width: "32px"}}>
+                                <img src="../../assets/1,2k.svg" style={{ position: "relative", marginLeft: "-12px", zIndex: "2", marginBottom: "-30vh" }}></img>
                                     <p style={{ width: "32px", height: "218px", borderRadius: "10px", backgroundColor: "#269544" }}></p>
-                                    <img src="../../assets/1,2k.svg" style={{ position: "absolute", bottom: "30vh", left: "-2vh" }}></img>
                                 </div>
                                 <p style={{ width: "32px", height: "48px", borderRadius: "10px", backgroundColor: "#952626" }}></p>
                             </div>
