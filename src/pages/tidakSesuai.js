@@ -46,12 +46,12 @@ export default function TidakSesuai() {
                 </form>
                 <div>
                     <p style={{ fontSize: "12px", fontWeight: "500", marginBottom: "10px", marginTop: "5vh" }}>Foto Pengambil dan Scan KTP</p>
-                    <div className="ktp d-flex justify-content-between p-3" style={{backgroundColor: "white", borderRadius: "10px", width: "auto", height: "auto"}}>
-                        <div className="doc" style={{border: "2px solid #606060", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", position: "relative", overflow: "hidden"  }}>
+                    <div className="ktp d-flex justify-content-center p-3" style={{backgroundColor: "white", borderRadius: "10px", width: "auto", height: "auto", gap: "15px"}}>
+                        <div className="doc" style={{border: "2px solid #606060", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", position: "relative", overflow: "hidden", padding: "10px"  }}>
                         <label htmlFor="upload-input-1" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
                                 {previewImage1 ? <img src={previewImage1} alt="Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
                                 {!previewImage1 && (
-                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "10px" }}>
                                         <img src="../../assets/Camera.svg" alt="Camera" />
                                         <p style={{ fontSize: "12px", color: "#606060", fontWeight: "400", textAlign: "center" }}>Ambil foto Pengambil</p>
                                     </div>
@@ -59,13 +59,13 @@ export default function TidakSesuai() {
                             </label>
                             <input type="file" id="upload-input-1" className='upload-input' style={{ display: "none" }} onChange={handleImageChange1} />
                         </div>
-                        <div className="doc" style={{border: "2px solid #606060", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", position: "relative", overflow: "hidden"  }}>
+                        <div className="doc" style={{border: "2px solid #606060", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", position: "relative", overflow: "hidden", padding: "10px"  }}>
                         <label htmlFor="upload-input-2" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
                                 {previewImage2 ? <img src={previewImage2} alt="Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
                                 {!previewImage2 && (
-                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "10px" }}>
                                         <img src="../../assets/Camera.svg" alt="Camera" />
-                                        <p style={{ fontSize: "12px", color: "#606060", fontWeight: "400", textAlign: "center" }}>Ambil foto Scan KTP</p>
+                                        <p style={{ fontSize: "12px", color: "#606060", fontWeight: "400", textAlign: "center", width: "auto" }}>Ambil foto Scan KTP</p>
                                     </div>
                                 )}
                             </label>

@@ -31,7 +31,7 @@ export default function Masuk() {
     return (
         <section className="mx-auto" style={{ maxWidth: "376px" }}>
             <Navbar />
-            <div className="hid d-flex justify-content-start align-items-start" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15vh" }}>
+            <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15vh" }}>
                 <Link to="/scan">
                     <img src="../../assets/Arrow.svg" style={{ marginLeft: "25px" }}></img>
                 </Link>
@@ -64,12 +64,12 @@ export default function Masuk() {
                 </form>
                 <div>
                     <p style={{ fontSize: "12px", fontWeight: "500", marginBottom: "10px", marginTop: "5vh" }}>Foto Kendaraan dan Pengendara</p>
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-center" style={{gap: "15px"}}>
                         <div className="ij" style={{ borderRadius: "10px", border: "1px solid #269544", backgroundColor: "rgba(81, 180, 108, 0.2)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", position: "relative", overflow: "hidden" }}>
                             <label htmlFor="upload-input-1" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
                                 {previewImage1 ? <img src={previewImage1} alt="Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
                                 {!previewImage1 && (
-                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "10px" }}>
                                         <img src="../../assets/Camera.svg" alt="Camera" />
                                         <p style={{ fontSize: "12px", color: "#269544", fontWeight: "500" }}>Ambil Foto Kendaraan</p>
                                     </div>
@@ -81,7 +81,7 @@ export default function Masuk() {
                             <label htmlFor="upload-input-2" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
                                 {previewImage2 ? <img src={previewImage2} alt="Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
                                 {!previewImage2 && (
-                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "10px" }}>
                                         <img src="../../assets/Camera.svg" alt="Camera" />
                                         <p style={{ fontSize: "12px", color: "#269544", fontWeight: "500" }}>Ambil Foto Pengendara</p>
                                     </div>

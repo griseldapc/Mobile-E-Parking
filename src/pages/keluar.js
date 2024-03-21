@@ -39,9 +39,9 @@ export default function Keluar() {
                 </form>
                 <div>
                     <p style={{ fontSize: "12px", fontWeight: "500", marginBottom: "10px", marginTop: "5vh" }}>Foto Kendaraan dan Pengendara</p>
-                    <div className="d-flex justify-content-between">
-                        <img src="../../assets/motor.svg" className="ij p-0"></img>
-                        <img src="../../assets/pengemudi.svg" className="ij p-0"></img>
+                    <div className="d-flex justify-content-center" style={{gap: "12px"}}>
+                        <img src="../../assets/motor.svg" className="img-konten p-0"></img>
+                        <img src="../../assets/pengemudi.svg" className="img-konten p-0"></img>
                     </div>
                 </div>
                 <Link to="">

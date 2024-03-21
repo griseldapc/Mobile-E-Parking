@@ -10,7 +10,6 @@
         display: inline-block;
     }
     .navbar {
-        width: 376px;
         z-index: 1;
     }
     .parkir{
@@ -20,6 +19,10 @@
         gap: 90px;
     }
     .ij{
+        width: 160px;
+        height: 224px;
+    }
+    .img-konten{
         width: 160px;
         height: 224px;
     }
@@ -40,7 +43,7 @@
 }
 
 @media(max-width:320px ){
-    .navbar{
+    /* .navbar{
         width: 320px;
     }
     .parkir{
@@ -63,11 +66,15 @@
     }
     .ho{
        width: 40px !important; 
-    }
+    } */
     .hid{
         gap: 70px;
     }
-    .ij{
+    .img-konten{
+        width: 132px;
+        height: 196px;
+    }
+    /* .ij{
         width: 132px;
         height: 214px;
         padding: 5vh;
@@ -82,7 +89,7 @@
     }
     .mg{
         width: 250px;
-    }
+    } */
     .tas{
         gap: 40px;
     }

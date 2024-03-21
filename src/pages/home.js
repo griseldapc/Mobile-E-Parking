@@ -22,13 +22,13 @@ export default function Home() {
                         <h1 style={{ fontSize: "16px", color: "#268E95", fontWeight: "600" }}>1.200 pengunjung</h1>
                     </div>
                 </div>
-                <div className="mt-3 d-flex justify-content-between">
-                    <div className="tk p-3" style={{ border: "1px solid #269544", borderRadius: "10px", width: "164.5px", backgroundColor: "rgba(81, 180, 108, 0.2)" }}>
+                <div className="mt-3 d-flex justify-content-between"  style={{gap: "15px"}}>
+                    <div className="tk" style={{ border: "1px solid #269544", borderRadius: "10px",width: "auto", backgroundColor: "rgba(81, 180, 108, 0.2)", padding: "22px" }}>
                         <img src="../../assets/Ticket-hijau.svg"></img>
                         <p className="mt-3" style={{ fontSize: "12px", marginBottom: "0" }}>Parkir dengan tiket</p>
                         <h1 style={{ fontSize: "14px", color: "#269544", fontWeight: "650" }}>1.005 Pengunjung</h1>
                     </div>
-                    <div className="tk p-3" style={{ border: "1.5px solid #EDD6D6", borderRadius: "10px", width: "164.5px", backgroundColor: "#F7EEEE" }}>
+                    <div className="tk" style={{ border: "1.5px solid #EDD6D6", borderRadius: "10px",width: "auto", backgroundColor: "#F7EEEE", padding: "22px"  }}>
                         <img src="../../assets/Danger.svg"></img>
                         <p className="mt-3" style={{ fontSize: "12px", marginBottom: "0" }}>Parkir tanpa tiket</p>
                         <h1 style={{ fontSize: "14px", color: "#952626", fontWeight: "650" }}>195 Pengunjung</h1>
