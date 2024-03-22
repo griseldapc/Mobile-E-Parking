@@ -13,9 +13,9 @@ export default function SuksesKeluar() {
 
                 <div className="home" style={{ display: "flex", flexDirection: "column", justifyContent: "end", height: "77vh", gap: "30%" }}>
                     <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                    <img src="../../assets/sukses.svg" className="mx-auto" alt="Success"></img>
                         <p style={{ fontSize: "16px", fontWeight: "bold", color: "white" }}>Data tiket telah berhasil disimpan
                         </p>
-                        <img src="../../assets/sukses.svg" className="mx-auto" alt="Success"></img>
                     </div>
                     <div>
                         <Link to="/">

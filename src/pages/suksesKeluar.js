@@ -4,17 +4,18 @@ import Header from "../components/header";
 
 export default function SuksesKeluar() {
     return (
-        <section className="mx-auto" style={{ backgroundColor: "#269544", height: "100vh", maxWidth: "376px"}}>
+        <section className="mx-auto" style={{ backgroundColor: "#269544", maxHeight: "105vh", maxWidth: "376px" }}>
             <Header />
             <div>
                 <div className="home" style={{ boxShadow: "0px 2px 4px rgba(201, 201, 201, 0.2)" }}>
                     <h1 style={{ fontSize: "16px", fontWeight: "600", width: "100%", textAlign: "center", color: "white" }}>Scan Tiket</h1>
                 </div>
 
-                <div className="home" style={{ display: "flex", flexDirection: "column", justifyContent: "end", height: "70vh", gap: "15vh", marginTop: "5vh" }}>
+                <div className="home" style={{ display: "flex", flexDirection: "column", justifyContent: "end", height: "77vh", gap: "30%" }}>
                     <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                         <img src="../../assets/sukses.svg" className="mx-auto" alt="Success"></img>
-                        <p style={{ fontSize: "16px", fontWeight: "bold", color: "white" }}>Data tiket telah berhasil disimpan</p>
+                        <p style={{ fontSize: "16px", fontWeight: "bold", color: "white" }}>Data tiket telah berhasil disimpan
+                        </p>
                     </div>
                     <div>
                         <Link to="/">
