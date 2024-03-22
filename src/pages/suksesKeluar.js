@@ -6,7 +6,7 @@ export default function SuksesKeluar() {
     return (
         <section className="mx-auto" style={{ backgroundColor: "#269544", height: "100vh", maxWidth: "376px"}}>
             <Header />
-            <div>
+            <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "90vh" }}>
                 <div className="home" style={{ boxShadow: "0px 2px 4px rgba(201, 201, 201, 0.2)" }}>
                     <h1 style={{ fontSize: "16px", fontWeight: "600", width: "100%", textAlign: "center", color: "white" }}>Scan Tiket</h1>
                 </div>
