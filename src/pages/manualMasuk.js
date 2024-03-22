@@ -72,7 +72,7 @@ export default function ManualMasuk() {
                             <label htmlFor="upload-input-1" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
                                 {previewImage1 ? <img src={previewImage1} alt="Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
                                 {!previewImage1 && (
-                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "10px" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "15px" }}>
                                         <img src="../../assets/Camera.svg" alt="Camera" />
                                         <p style={{ fontSize: "12px", color: "#269544", fontWeight: "500" }}>Ambil Foto Kendaraan</p>
                                     </div>
@@ -84,7 +84,7 @@ export default function ManualMasuk() {
                             <label htmlFor="upload-input-2" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
                                 {previewImage2 ? <img src={previewImage2} alt="Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
                                 {!previewImage2 && (
-                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "10px" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "15px" }}>
                                         <img src="../../assets/Camera.svg" alt="Camera" />
                                         <p style={{ fontSize: "12px", color: "#269544", fontWeight: "500" }}>Ambil Foto Pengendara</p>
                                     </div>

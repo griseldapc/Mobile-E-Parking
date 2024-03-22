@@ -12,7 +12,7 @@ export default function ManualKeluar() {
                 </Link>
                 <h1 style={{ fontSize: "16px", fontWeight: "600",textAlign: "center", marginBottom: 0}}>Tambahkan Tiket Manual</h1>
             </div>
-            <div style={{ backgroundColor: "#F0F2F5", height: "77vh", display: "flex", flexDirection: "column", justifyContent: "space-between" }} className="home">
+            <div style={{ backgroundColor: "#F0F2F5", height: "78vh", display: "flex", flexDirection: "column", justifyContent: "space-between" }} className="home">
                 <form>
                     <div className="mb-3">
                         <label htmlFor="exampleInputText" className="form-label" style={{ fontSize: "12px" }}>Nomor Polisi</label>

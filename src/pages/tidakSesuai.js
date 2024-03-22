@@ -44,14 +44,15 @@ export default function TidakSesuai() {
                         <input type="text" class="form-control" id="exampleInputText" style={{fontSize: "14px"}}></input>
                     </div>
                 </form>
-                <div>
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "end", height: "100%", gap: "15vh", marginTop: "-60px"}}>
+                    <div>
                     <p style={{ fontSize: "12px", fontWeight: "500", marginBottom: "10px", marginTop: "5vh" }}>Foto Pengambil dan Scan KTP</p>
                     <div className="ktp d-flex justify-content-center p-3" style={{backgroundColor: "white", borderRadius: "10px", width: "auto", height: "auto", gap: "15px"}}>
                         <div className="doc" style={{border: "2px solid #606060", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", position: "relative", overflow: "hidden", padding: "10px"  }}>
                         <label htmlFor="upload-input-1" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
                                 {previewImage1 ? <img src={previewImage1} alt="Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
                                 {!previewImage1 && (
-                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "10px" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "15px" }}>
                                         <img src="../../assets/Camera.svg" alt="Camera" />
                                         <p style={{ fontSize: "12px", color: "#606060", fontWeight: "400", textAlign: "center" }}>Ambil foto Pengambil</p>
                                     </div>
@@ -63,7 +64,7 @@ export default function TidakSesuai() {
                         <label htmlFor="upload-input-2" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
                                 {previewImage2 ? <img src={previewImage2} alt="Preview" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
                                 {!previewImage2 && (
-                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "10px" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%", height: "100%", padding: "15px" }}>
                                         <img src="../../assets/Camera.svg" alt="Camera" />
                                         <p style={{ fontSize: "12px", color: "#606060", fontWeight: "400", textAlign: "center", width: "auto" }}>Ambil foto Scan KTP</p>
                                     </div>
@@ -74,8 +75,10 @@ export default function TidakSesuai() {
                     </div>
                 </div>
                 <Link to="/sukses">
-                    <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }} className="mt-5 mb-3">KIRIM</button>
+                    <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white", marginBottom: "20px" }} className="">KIRIM</button>
                 </Link>
+                </div>
+                
 
             </div>
         </section>
