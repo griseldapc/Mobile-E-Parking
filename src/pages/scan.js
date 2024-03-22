@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import Navbar from "../components/navbar";
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Scan() {
     const videoRef = useRef(null);
@@ -47,11 +48,11 @@ export default function Scan() {
 
                     </h1>
                 </div>
-                <div className="home" style={{ display: "flex", flexDirection: "column", justifyContent: "end", gap: "15vh", marginTop: "0vh", position: "relative" }}>
+                <div className="home my-auto" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", marginTop: "0vh", position: "relative", height: "78vh" }}>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", position: "relative", width: "100%", height: "auto" }}>
                         <video ref={videoRef} style={{ width: "100%", height: "auto", zIndex: -1 }} autoPlay playsInline></video>
                         <Link to="/masuk" style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>
-                            <img src="../../assets/qr.png" alt="QR Code" style={{ width: "300px",  height: "auto" }}></img>
+                            <img src="../../assets/qr.png" alt="QR Code" style={{ width: "200px",  height: "auto" }}></img>
                         </Link>
                     </div>
 
@@ -61,7 +62,6 @@ export default function Scan() {
                             TAMBAH MANUAL</button>
                     </Link>
                 </div>
-
             </div>
         </section>
     )
