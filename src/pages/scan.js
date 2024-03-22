@@ -33,10 +33,10 @@ export default function Scan() {
     };
 
     return (
-        <section className="mx-auto" style={{ maxWidth: "376px" }}>
+        <section className="mx-auto" style={{ maxWidth: "376px", height: "100vh" }}>
             <Navbar />
             <div style={{  paddingTop: "50px",  position: "relative", overflow: "hidden" }}>
-                <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15px" }}>
+                <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15px", zIndex: 1 }}>
                     <Link to="/">
                         <img src="../../assets/Arrow.svg" style={{ marginLeft: "25px" }} alt="Arrow"></img>
                     </Link>
@@ -55,7 +55,7 @@ export default function Scan() {
 
                     <Link to="/manual">
                         <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }}>
-                            <img src="../../assets/Add Circle.svg" alt="Add Circle"></img>
+                            <img src="../../assets/Add Circle.svg" alt="Add Circle" style={{marginRight: "5px"}}></img>
                             TAMBAH MANUAL</button>
                     </Link>
                 </div>

@@ -14,7 +14,7 @@ export default function Manual() {
                    
                     <h1 style={{ fontSize: "16px", fontWeight: "600",textAlign: "center", marginBottom: 0}}>Tambahkan Tiket Manual</h1>
                 </div>
-                <div className="home mt-5 mx-auto" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "100%" }}>
+                <div className="home mt-5 mx-auto" style={{ display: "flex", flexDirection: "column", justifyContent: "center", height: "auto" }}>
                     <Link to="/manualMasuk" className="mx-auto">
                         <img src="../../assets/Ticket-masuk.svg" className="mg mx-auto" style={{width: "100%"}}></img>
                     </Link>
