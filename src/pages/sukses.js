@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/header";
 
-export default function SuksesKeluar() {
+export default function Sukses() {
     return (
         <section className="mx-auto" style={{ backgroundColor: "#269544", maxHeight: "105vh", maxWidth: "376px" }}>
             <Header />
