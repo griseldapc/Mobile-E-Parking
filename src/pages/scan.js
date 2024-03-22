@@ -36,7 +36,7 @@ export default function Scan() {
         <section className="mx-auto" style={{ maxWidth: "376px", height: "100vh" }}>
             <Navbar />
             <div style={{  paddingTop: "50px",  position: "relative", overflow: "hidden" }}>
-                <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15px", zIndex: 1 }}>
+                <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15px", zIndex: 1, backgroundColor: "white" }}>
                     <Link to="/">
                         <img src="../../assets/Arrow.svg" style={{ marginLeft: "25px" }} alt="Arrow"></img>
                     </Link>
