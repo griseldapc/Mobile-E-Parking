@@ -93,7 +93,7 @@ export default function Masuk() {
 
                 </div>
                 <Link to="/sukses">
-                    <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }} className="mt-5 mb-3">SIMPAN</button>
+                    <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }} className="mt-5">SIMPAN</button>
                 </Link>
 
             </div>

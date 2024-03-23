@@ -19,8 +19,8 @@ export default function ManualKeluar() {
                         <input type="text" className="form-control" id="exampleInputText" placeholder="Masukan Nomor Polisi" style={{ fontSize: "14px", color: "#CDD0D3", fontWeight: "300" }} />
                     </div>
                 </form>
-                <Link to="/suksesKeluar">
-                    <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }} className="mt-5 mb-3">KIRIM</button>
+                <Link to="/sukses">
+                    <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }} className="mt-5">KIRIM</button>
                 </Link>
             </div>
 

@@ -8,7 +8,6 @@ import Scan from './pages/scan';
 import Manual from './pages/manual';
 import ManualMasuk from './pages/manualMasuk';
 import ManualKeluar from './pages/manualKeluar';
-import SuksesKeluar from './pages/suksesKeluar';
 import Keluar from './pages/keluar';
 import TidakSesuai from './pages/tidakSesuai';
 
@@ -24,7 +23,6 @@ export default function App() {
           <Route path="/manual" element={<Manual />} />
           <Route path="/manualMasuk" element={<ManualMasuk />} />
           <Route path="/manualKeluar" element={<ManualKeluar />} />
-          <Route path="/suksesKeluar" element={<SuksesKeluar />} />
           <Route path="/keluar" element={<Keluar />} />
           <Route path="/tidakSesuai" element={<TidakSesuai />} />
         </Routes>

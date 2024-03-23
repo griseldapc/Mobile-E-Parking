@@ -44,11 +44,11 @@ export default function Keluar() {
                         <img src="../../assets/pengemudi.svg" className="img-konten p-0"></img>
                     </div>
                 </div>
-                <Link to="">
+                <Link to="/sukses">
                     <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }} className="mt-5 mb-3">SESUAI</button>
                 </Link>
                 <Link to="/tidakSesuai">
-                    <button style={{ backgroundColor: "#952626", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }} className="mb-3">TIDAK SESUAI</button>
+                    <button style={{ backgroundColor: "#952626", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }} className="">TIDAK SESUAI</button>
                 </Link>
 
             </div>
