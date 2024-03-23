@@ -29,7 +29,7 @@ export default function TidakSesuai() {
         }
     };
     return (
-        <section className="mx-auto" style={{maxWidth: "376px"}}>
+        <section className="mx-auto" style={{maxWidth: "376px", maxHeight: "100vh"}}>
             <Navbar/>
             <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "70px" }}>
             <Link to="/keluar">
@@ -44,7 +44,7 @@ export default function TidakSesuai() {
                         <input type="text" class="form-control" id="exampleInputText" style={{fontSize: "14px"}}></input>
                     </div>
                 </form>
-                <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%"}}>
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "80vh"}}>
                     <div>
                     <p style={{ fontSize: "12px", fontWeight: "500", marginBottom: "10px", marginTop: "0" }}>Foto Pengambil dan Scan KTP</p>
                     <div className="ktp d-flex justify-content-center p-3" style={{backgroundColor: "white", borderRadius: "10px", width: "auto", height: "auto", gap: "15px"}}>
