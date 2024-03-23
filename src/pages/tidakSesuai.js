@@ -44,9 +44,9 @@ export default function TidakSesuai() {
                         <input type="text" class="form-control" id="exampleInputText" style={{fontSize: "14px"}}></input>
                     </div>
                 </form>
-                <div style={{ display: "flex", flexDirection: "column", justifyContent: "end", height: "100%", gap: "15vh", marginTop: "-60px"}}>
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%"}}>
                     <div>
-                    <p style={{ fontSize: "12px", fontWeight: "500", marginBottom: "10px", marginTop: "5vh" }}>Foto Pengambil dan Scan KTP</p>
+                    <p style={{ fontSize: "12px", fontWeight: "500", marginBottom: "10px", marginTop: "0" }}>Foto Pengambil dan Scan KTP</p>
                     <div className="ktp d-flex justify-content-center p-3" style={{backgroundColor: "white", borderRadius: "10px", width: "auto", height: "auto", gap: "15px"}}>
                         <div className="doc" style={{border: "2px solid #606060", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", position: "relative", overflow: "hidden", padding: "10px"  }}>
                         <label htmlFor="upload-input-1" className='upload-input' style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
