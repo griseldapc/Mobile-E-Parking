@@ -34,7 +34,7 @@ export default function Keluar() {
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputText" class="form-label" style={{fontSize: "12px"}}>Nomor Polisi</label>
-                        <input type="text" class="form-control" id="exampleInputText" placeholder="20.10 WIB"  style={{fontSize: "14px", backgroundColor: "transparent"}}></input>
+                        <input type="text" class="form-control" id="exampleInputText" placeholder="N 2019 NN"  style={{fontSize: "14px", backgroundColor: "transparent"}}></input>
                     </div>
                 </form>
                 <div>
