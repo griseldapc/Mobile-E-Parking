@@ -11,7 +11,7 @@ export default function Sukses() {
                     <h1 style={{ fontSize: "16px", fontWeight: "600", width: "100%", textAlign: "center", color: "white" }}>Scan Tiket</h1>
                 </div>
                 <div className="home">
-                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "80vh", textAlign: "center", bottom: "20px" }}>
+                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "70vh", textAlign: "center", bottom: "20px" }}>
                         <img src="../../assets/sukses.svg" className="mx-auto" alt="Success"></img>
                         <p style={{ fontSize: "16px", fontWeight: "bold", color: "white" }}>Data tiket telah berhasil disimpan
                         </p>
