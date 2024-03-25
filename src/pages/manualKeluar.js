@@ -16,7 +16,7 @@ export default function ManualKeluar() {
                 <form>
                     <div className="mb-3">
                         <label htmlFor="exampleInputText" className="form-label" style={{ fontSize: "12px" }}>Nomor Polisi</label>
-                        <input type="text" className="form-control" id="exampleInputText" placeholder="Masukan Nomor Polisi" style={{ fontSize: "14px", color: "#CDD0D3", fontWeight: "300" }} />
+                        <input type="text" className="form-control" id="exampleInputText" placeholder="Masukan Nomor Polisi" style={{ fontSize: "14px", fontWeight: "300" }} />
                     </div>
                 </form>
                 <Link to="/sukses">

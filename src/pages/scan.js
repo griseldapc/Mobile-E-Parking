@@ -34,7 +34,7 @@ export default function Scan() {
     };
 
     return (
-        <section className="mx-auto" style={{ maxWidth: "376px" }}>
+        <section className="mx-auto" style={{ maxWidth: "376px", height: "100vh" }}>
             <Navbar />
             <div style={{ paddingTop: "50px", position: "relative", overflow: "hidden" }}>
                 <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15px", zIndex: 1, backgroundColor: "white" }}>
@@ -69,8 +69,19 @@ export default function Scan() {
                             transform: "translateX(-50%)",
                             left: "50%",
                             bottom: "20px",
-                            color: "white"
-                        }}>KEMBALI KE BERANDA</button>
+                            color: "white",
+                            display: "flex",
+                            alignItems: "center",
+                            textAlign: "center",
+                            justifyContent: "center",
+                            gap: "10px",
+                            border: "1px solid white"
+                        }}>
+                            <img src="../../assets/Add Circle.svg"></img>
+                            <p style={{marginBottom: 0}}>
+                                TAMBAH MANUAL
+                            </p>
+                            </button>
                     </Link>
                 </div>
             </div>
