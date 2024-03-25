@@ -34,7 +34,7 @@ export default function Scan() {
     };
 
     return (
-        <section className="mx-auto" style={{ maxWidth: "376px", maxHeight: "100vh" }}>
+        <section className="mx-auto" style={{ maxWidth: "376px" }}>
             <Navbar />
             <div style={{ paddingTop: "50px", position: "relative", overflow: "hidden" }}>
                 <div className="hid d-flex justify-content-start align-items-center" style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", paddingBottom: "15px", paddingTop: "15px", zIndex: 1, backgroundColor: "white" }}>
@@ -52,14 +52,25 @@ export default function Scan() {
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", position: "relative", width: "100%", height: "auto" }}>
                         <video ref={videoRef} style={{ width: "100%", height: "auto", zIndex: -1 }} autoPlay playsInline></video>
                         <Link to="/masuk" style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>
-                            <img src="../../assets/qr.png" alt="QR Code" style={{ width: "200px",  height: "auto" }}></img>
+                            <img src="../../assets/qr.png" alt="QR Code" style={{ width: "200px", height: "auto" }}></img>
                         </Link>
                     </div>
-
                     <Link to="/manual">
-                        <button style={{ backgroundColor: "#269544", borderRadius: "10px", width: "100%", height: "39px", fontSize: "12px", fontWeight: "bold", border: "none", color: "white" }}>
-                            <img src="../../assets/Add Circle.svg" alt="Add Circle" style={{ marginRight: "5px" }}></img>
-                            TAMBAH MANUAL</button>
+                        <button style={{
+                            backgroundColor: "#269544",
+                            borderRadius: "10px",
+                            width: "89%",
+                            height: "39px",
+                            fontSize: "12px",
+                            fontWeight: "bold",
+                            border: "none",
+                            color: "#269544",
+                            position: "fixed",
+                            transform: "translateX(-50%)",
+                            left: "50%",
+                            bottom: "20px",
+                            color: "white"
+                        }}>KEMBALI KE BERANDA</button>
                     </Link>
                 </div>
             </div>
