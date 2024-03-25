@@ -4,10 +4,10 @@ import Header from "../components/header";
 
 export default function Sukses() {
     return (
-        <section className="mx-auto" style={{ backgroundColor: "#269544", maxWidth: "376px" }}>
+        <section className="mx-auto" style={{ backgroundColor: "#269544", maxWidth: "376px", height: "100vh" }}>
             <Header />
             <div>
-                <div style={{ boxShadow: "0px 2px 4px rgba(201, 201, 201, 0.2)", paddingBottom: "10px" }}>
+                <div style={{ boxShadow: "0px 2px 4px rgba(201, 201, 201, 0.2)", paddingBottom: "10px", position: "fixed", width: "100%" }}>
                     <h1 style={{ fontSize: "16px", fontWeight: "600", width: "100%", textAlign: "center", color: "white" }}>Scan Tiket</h1>
                 </div>
                 <div className="home">
